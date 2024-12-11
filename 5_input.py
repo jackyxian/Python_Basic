@@ -1,0 +1,5 @@
+# BMI (身体质量指数 = 体重（kg）÷ 身高²（m）)
+user_weight = float(input("请输入您的体重(单位：kg)："))
+user_height = float(input("请输入您的体重(单位：m)："))
+user_bmi = user_weight / (user_height ** 2)
+print("您的 BMI 值为：" + str(user_bmi))
